@@ -1,6 +1,6 @@
 # Salon Queue Management System
 
-**Live demo:** _add the Railway link here after deploying_
+**Live demo:** https://client-production-618a66b1.up.railway.app/
 **Hosted on:** Railway (one service – frontend, backend and SQLite on a volume)
 **Staff PIN for reception / barber / admin screens:** `2468`
 
