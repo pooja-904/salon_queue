@@ -1,0 +1,14 @@
+services:
+  salon-queue:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      STAFF_PIN: "2468"
+      NO_SHOW_MINUTES: "10"
+    volumes:
+      - salon-data:/data
+    restart: unless-stopped
+
+volumes:
+  salon-data:
